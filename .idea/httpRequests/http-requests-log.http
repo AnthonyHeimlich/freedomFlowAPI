@@ -1,3 +1,52 @@
+PUT https://freedomflowapi.onrender.com/accounts/2
+Content-type: application/json
+Content-Length: 217
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+PUT https://freedomflowapi.onrender.com/accounts/2
+Content-type: application/json
+Content-Length: 219
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Tunicooo",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+GET https://freedomflowapi.onrender.com/accounts?search=anthony
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T043246.200.json
+
+###
+
 PUT http://localhost:3333/accounts/2
 Content-type: application/json
 Content-Length: 217

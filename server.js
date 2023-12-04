@@ -23,6 +23,11 @@ server.post('/accounts', async (request, reply) => {
 
 })
 
+
+server.get('/',  () => {
+    return 'Oi meus queridos'
+})
+
 server.get('/accounts', async (request) => {
     const search = request.query.search
 
