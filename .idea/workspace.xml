@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="21ede052-ed87-489e-a78c-e24dd0c419c7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Anthony Heimlich/Desktop/projects/noFap/freedomFlowAPI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,6 +87,7 @@
       <workItem from="1701669438596" duration="306000" />
       <workItem from="1701669757123" duration="2110000" />
       <workItem from="1701673048264" duration="324000" />
+      <workItem from="1701673562098" duration="36000" />
     </task>
     <servers />
   </component>
