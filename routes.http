@@ -1,4 +1,4 @@
-POST http://localhost:3333/accounts
+POST https://freedomflowapi.onrender.com/accounts
 Content-type: application/json
 
 
@@ -15,11 +15,11 @@ Content-type: application/json
 
 
 ###
-GET http://localhost:3333/accounts?search=anthony
+GET https://freedomflowapi.onrender.com/accounts?search=anthony
 
 
 ###
-PUT http://localhost:3333/accounts/2
+PUT https://freedomflowapi.onrender.com/accounts/2
 Content-type: application/json
 
 {
@@ -35,4 +35,4 @@ Content-type: application/json
 
 
 ###
-DELETE http://localhost:3333/accounts/
+DELETE https://freedomflowapi.onrender.com/accounts/
