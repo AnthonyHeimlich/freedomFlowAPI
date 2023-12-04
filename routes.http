@@ -1,0 +1,38 @@
+POST http://localhost:3333/accounts
+Content-type: application/json
+
+
+{
+  "username": "tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+
+###
+GET http://localhost:3333/accounts?search=anthony
+
+
+###
+PUT http://localhost:3333/accounts/2
+Content-type: application/json
+
+{
+  "username": "Tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+
+###
+DELETE http://localhost:3333/accounts/

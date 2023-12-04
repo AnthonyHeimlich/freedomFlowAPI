@@ -1,0 +1,265 @@
+PUT http://localhost:3333/accounts/2
+Content-type: application/json
+Content-Length: 217
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+PUT http://localhost:3333/accounts/1
+Content-type: application/json
+Content-Length: 218
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Tunicow",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+POST http://localhost:3333/accounts
+Content-type: application/json
+Content-Length: 217
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+DELETE http://localhost:3333/accounts/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+PUT http://localhost:3333/accounts/1
+Content-type: application/json
+Content-Length: 218
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Tunicow",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+PUT http://localhost:3333/accounts/1
+Content-type: application/json
+Content-Length: 218
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Tunicow",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+PUT http://localhost:3333/accounts/1
+Content-type: application/json
+Content-Length: 218
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Tunicow",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+PUT http://localhost:3333/accounts/1
+Content-type: application/json
+Content-Length: 218
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Tunicow",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+POST http://localhost:3333/accounts
+Content-type: application/json
+Content-Length: 217
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+POST http://localhost:3333/accounts
+Content-type: application/json
+Content-Length: 213
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": "",
+  "updated_at": ""
+}
+
+<> 2023-12-04T030359.500.json
+
+###
+
+POST http://localhost:3333/accounts
+Content-type: application/json
+Content-Length: 233
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": "2023-12-04 02:50:07'",
+  "updated_at": ""
+}
+
+<> 2023-12-04T030319.500.json
+
+###
+
+POST http://localhost:3333/accounts
+Content-type: application/json
+Content-Length: 233
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": "2023-12-04 02:50:07'",
+  "updated_at": ""
+}
+
+<> 2023-12-04T030151.500.json
+
+###
+
+POST http://localhost:3333/accounts
+Content-type: application/json
+Content-Length: 233
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "tunico",
+  "email": "anthonyheimlich@hotmail.com",
+  "firstname": "Anthony",
+  "lastname": "Heimlich",
+  "password": "123u9s8jf123nsufh198",
+  "age": "20",
+  "created_at": "2023-12-04 02:50:07'",
+  "updated_at": ""
+}
+
+<> 2023-12-04T030046.404.json
+
+###
+
+POST http://localhost:3333
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-04T010558.404.json
+
+###
+
