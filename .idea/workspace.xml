@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21ede052-ed87-489e-a78c-e24dd0c419c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1701669438596" duration="306000" />
       <workItem from="1701669757123" duration="2110000" />
       <workItem from="1701673048264" duration="324000" />
-      <workItem from="1701673562098" duration="305000" />
+      <workItem from="1701673562098" duration="349000" />
     </task>
     <servers />
   </component>
