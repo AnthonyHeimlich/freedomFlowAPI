@@ -1,3 +1,108 @@
+POST https://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+<> 2023-12-14T002433.404.json
+
+###
+
+POST https://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+<> 2023-12-14T002154.404.json
+
+###
+
+POST https://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+<> 2023-12-14T002125.404.json
+
+###
+
+POST https://freedomflowapi.onrender.com/accounts
+Content-type: application/json
+Content-Length: 216
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "vico",
+  "email": "victoria.medeiros@hotmail.com",
+  "firstname": "Victória",
+  "lastname": "Medeiros",
+  "password": "18293usiodfjknsdf",
+  "age": "21",
+  "created_at": null,
+  "updated_at": null
+}
+
+###
+
+POST http://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+<> 2023-12-14T002037.404.json
+
+###
+
+POST http://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+<> 2023-12-14T002015.404.json
+
+###
+
 PUT https://freedomflowapi.onrender.com/accounts/2
 Content-type: application/json
 Content-Length: 217

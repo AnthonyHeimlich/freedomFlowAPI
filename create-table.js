@@ -6,10 +6,8 @@ sql`DROP TABLE IF EXISTS accounts;`.then(() => {
 })
 */
 
-
-
-sql`
-    CREATE TABLE IF NOT EXISTS accounts (
+/*
+CREATE TABLE IF NOT EXISTS accounts (
         id SERIAL PRIMARY KEY,
         username VARCHAR(50) UNIQUE NOT NULL,
         email VARCHAR(100) UNIQUE NOT NULL,
@@ -20,6 +18,17 @@ sql`
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
+ */
+
+
+
+sql`
+    CREATE TABLE achievements (
+        id SERIAL PRIMARY KEY,
+        user_id INT REFERENCES accounts(id),
+        date DATE,
+        achievement_type VARCHAR(255)
+    );
 `.then(() => {
     console.log('Tabela criada!')
 })

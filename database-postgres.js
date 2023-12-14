@@ -2,6 +2,13 @@ import { randomUUID} from 'node:crypto'
 import {sql} from "./db.js";
 
 export class DatabasePostgres{
+
+    async createAchievement(achievement){
+        const {user_id, date, achievement_type} = achievement
+
+        await sql`insert into achievements (user_id, date, achievement_type) VALUES (${user_id}, ${date}, ${achievement_type})`
+    }
+
     async list(search){
         let accounts
 

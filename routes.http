@@ -1,14 +1,25 @@
+POST https://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+
+###
 POST https://freedomflowapi.onrender.com/accounts
 Content-type: application/json
 
 
 {
-  "username": "tunico",
-  "email": "anthonyheimlich@hotmail.com",
-  "firstname": "Anthony",
-  "lastname": "Heimlich",
-  "password": "123u9s8jf123nsufh198",
-  "age": "20",
+  "username": "vico",
+  "email": "victoria.medeiros@hotmail.com",
+  "firstname": "Victória",
+  "lastname": "Medeiros",
+  "password": "18293usiodfjknsdf",
+  "age": "21",
   "created_at": null,
   "updated_at": null
 }

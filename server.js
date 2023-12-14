@@ -5,10 +5,21 @@ const server = fastify()
 
 const database = new DatabasePostgres()
 
+server.post('/achievements', async (request, reply) => {
+    const {user_id, date, achievement_type} = request.body
+
+    await database.createAchievement({
+        user_id: user_id,
+        date: date,
+        achievement_type: achievement_type,
+    })
+
+})
+
 server.post('/accounts', async (request, reply) => {
     const { username, email, firstname, lastname, password, age, created_at, updated_at} = request.body
 
-   await database.create({
+    await database.create({
         username: username,
         email: email,
         firstname: firstname,
