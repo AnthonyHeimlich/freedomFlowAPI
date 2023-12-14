@@ -6,7 +6,7 @@ export class DatabasePostgres{
     async createAchievement(achievement){
         const {user_id, date, achievement_type} = achievement
 
-        await sql`insert into achievements (user_id, date, achievement_type) VALUES (${user_id}, ${date}, ${achievement_type})`
+        await sql`insert into achievements (user_id, date, achievement_type) VALUES (${user_id}, CURRENT_TIMESTAMP, ${achievement_type})`
     }
 
     async list(search){

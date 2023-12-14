@@ -11,6 +11,72 @@ Accept-Encoding: br,deflate,gzip,x-gzip
   "achievement_type": "3days"
 }
 
+###
+
+POST https://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+<> 2023-12-14T002713.404.json
+
+###
+
+POST https://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+<> 2023-12-14T002711.404.json
+
+###
+
+POST https://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
+<> 2023-12-14T002709.404.json
+
+###
+
+POST https://freedomflowapi.onrender.com/achievements
+Content-type: application/json
+Content-Length: 73
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "user_id": 2,
+  "date": "2023-01-15",
+  "achievement_type": "3days"
+}
+
 <> 2023-12-14T002433.404.json
 
 ###

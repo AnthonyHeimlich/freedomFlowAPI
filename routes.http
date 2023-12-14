@@ -3,7 +3,6 @@ Content-type: application/json
 
 {
   "user_id": 2,
-  "date": "2023-01-15",
   "achievement_type": "3days"
 }
 
