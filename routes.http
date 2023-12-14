@@ -3,7 +3,7 @@ Content-type: application/json
 
 {
   "user_id": 2,
-  "achievement_type": "3days"
+  "achievement_type": "5days"
 }
 
 
